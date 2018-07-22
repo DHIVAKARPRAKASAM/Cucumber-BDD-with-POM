@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.241806">
+<testcase classname="Amazon Login Feature" name="Amazon Login Test_scenario" time="7.241806">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)&#13;&#10;&#9;at com.qa.pages.LoginPage.Button(LoginPage.java:34)&#13;&#10;&#9;at com.qa.StepDefinition.LoginStep.user_enters_mobile(LoginStep.java:40)&#13;&#10;&#9;at ✽.Then user enters mobile(C:/Users/dhiva/eclipse-workspace/AmazonBDDwithPOM/src/main/java/com/qa/features/amazon.feature:7)&#13;&#10;"><![CDATA[Given User is already in login page.........................................passed
+When title of login page is Amazon..........................................passed
+Then user enters mobile.....................................................failed
+Then user is on password page is displayed..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at com.qa.pages.LoginPage.Button(LoginPage.java:34)
+	at com.qa.StepDefinition.LoginStep.user_enters_mobile(LoginStep.java:40)
+	at ✽.Then user enters mobile(C:/Users/dhiva/eclipse-workspace/AmazonBDDwithPOM/src/main/java/com/qa/features/amazon.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
